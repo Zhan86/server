@@ -8,7 +8,6 @@ public class ChatServer {
     ServerSocket serverSocket;
 
     ChatServer() throws IOException {
-        // создаем серверный сокет на порту 1234
 
         serverSocket = new ServerSocket(1234);
 
